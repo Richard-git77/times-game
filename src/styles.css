@@ -1,0 +1,145 @@
+#root{
+  height: 80vh;
+}
+
+
+
+body{
+    background-color:rgb(28, 27, 27);
+
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.title{
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2px;
+  
+}
+
+.square{
+  display: flex;
+  justify-content: center;
+}
+.div-principal{
+  background-color: rgb(221, 201, 201);
+  width:775.188px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.cuadricula{
+
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.one{
+  width: 75.52px;
+  height: auto;
+  border: 1px solid black;
+
+  background-color: cornflowerblue;
+}
+
+
+.sidedice{
+  background-color: rgba(255, 217, 0, 0.801);
+  height: 80vh;
+  width: 400px;
+  position: relative;
+
+  left: 1444px;
+  bottom: 777px;
+  
+  
+}
+.sidescore{
+  background-color: rgba(255, 217, 0, 0.801);
+  height: 80vh;
+  width: 400px;
+  position: relative;
+
+  left: 77px;
+  bottom: 1587px;
+  
+  
+}
+
+
+
+
+
+
+.inputs{
+  text-align: center;
+}
+.input{
+  font-size: 1.7rem;
+  border-radius: 7px;
+background-color: darkslateblue;
+
+color: white;
+
+}
+
+.p{
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.score{
+  font-size: 4rem;
+}
+
+
+button{
+  font-size: 5rem;
+  border-radius: 7px;
+
+  background-color: darkslateblue;
+  color: white;
+  padding: 4px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(112, 87, 250);
+}
+
+
+.dice{
+  text-align: center;
+}
+
+.dices{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.dimage{
+  height: auto;
+  width: 150px;
+  
+  margin: 20px;
+}
+.image{
+  height: auto;
+  width: 150px;
+}
+
+
+
+
+.resultcage{
+  color: white;
+  font-size: 4rem;
+  margin-left: 47px;
+}
